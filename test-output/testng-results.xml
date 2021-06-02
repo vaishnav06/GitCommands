@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="159" started-at="2021-04-12T14:07:12 IST" finished-at="2021-04-12T14:07:12 IST">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="159" started-at="2021-04-12T14:07:12 IST" finished-at="2021-04-12T14:07:12 IST">
+      <class name="test.DataProvider_demo">
+        <test-method status="PASS" signature="Demo(java.lang.String, java.lang.String)[pri:0, instance:test.DataProvider_demo@4f970963]" name="Demo" duration-ms="9" started-at="2021-04-12T14:07:12 IST" data-provider="getData" finished-at="2021-04-12T14:07:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firstSetUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firstSetPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method status="PASS" signature="Demo(java.lang.String, java.lang.String)[pri:0, instance:test.DataProvider_demo@4f970963]" name="Demo" duration-ms="2" started-at="2021-04-12T14:07:12 IST" data-provider="getData" finished-at="2021-04-12T14:07:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[secondSetUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secondSetPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+        <test-method status="PASS" signature="Demo(java.lang.String, java.lang.String)[pri:0, instance:test.DataProvider_demo@4f970963]" name="Demo" duration-ms="2" started-at="2021-04-12T14:07:12 IST" data-provider="getData" finished-at="2021-04-12T14:07:12 IST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[thirdSetUsername]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[thirdSetPassword]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Demo -->
+      </class> <!-- test.DataProvider_demo -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

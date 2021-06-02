@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Loan" parallel="tests" thread-count="2">
+  <test name="Personal Loan" parallel="classes" thread-count="2">
+    <classes>
+      <class name="test.Day2HomeLoan"/>
+      <class name="test.Day1CarLoan"/>
+    </classes>
+  </test> <!-- Personal Loan -->
+</suite> <!-- Loan -->

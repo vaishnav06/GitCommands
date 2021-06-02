@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [LoanTypes]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="test.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Car Loans(failed)">
+    <classes>
+      <class name="test.Day1CarLoan">
+        <methods>
+          <include name="webCarLoan"/>
+          <include name="apiCarLoan"/>
+          <include name="last"/>
+          <include name="afSuite"/>
+        </methods>
+      </class> <!-- test.Day1CarLoan -->
+    </classes>
+  </test> <!-- Car Loans(failed) -->
+</suite> <!-- Failed suite [LoanTypes] -->
